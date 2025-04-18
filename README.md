@@ -45,7 +45,7 @@ A Spring Boot Demo for managing transactions with in-memory storage.
 ### Local Development
 
 1. Clone the repository
-2. Run the application: `TransactionServiceApplication`
+2. Run the application: `./mvnw spring-boot:run` or just run `TransactionServiceApplication`
 
 ### Docker
 
