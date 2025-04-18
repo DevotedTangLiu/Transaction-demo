@@ -54,6 +54,8 @@ public class TransactionServiceImpl implements TransactionService {
         }
         checkDuplicate(transaction);
 
+        // other business logic, like check balance before withdraw, make sure have enough amount, calculate balance, etc
+
         transaction.setId(UUID.randomUUID());
         transaction.setTimestamp(LocalDateTime.now());
         HashCodeHelper.updateHashCode(transaction);
